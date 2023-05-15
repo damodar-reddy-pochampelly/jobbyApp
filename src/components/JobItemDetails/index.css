@@ -1,0 +1,164 @@
+.job-details-bg-container {
+  background-color: #000000;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .job-details-bg-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.similar-jobs-heading {
+  color: #ffffff;
+  font-size: 23px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-jobs-heading {
+    font-size: 25px;
+  }
+}
+
+.similar-jobs-container {
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-jobs-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.similar-job-card-item {
+  background-color: #272727;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-card-item {
+    width: 42%;
+    margin-right: 30px;
+    padding: 30px;
+  }
+}
+
+.similar-job-logo-title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.similar-job-company-logo {
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+}
+
+.similar-job-title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-title {
+    font-size: 20px;
+  }
+}
+
+.similar-job-rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.similar-job-rating {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.similar-job-star-icon {
+  color: #fbbf24;
+  margin-right: 5px;
+  width: 18px;
+  height: 18px;
+}
+
+.similar-job-description-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-description-heading {
+    font-size: 22px;
+  }
+}
+
+.similar-job-description {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-description {
+    font-size: 18px;
+    line-height: 2em;
+  }
+}
+
+.similar-job-location-employment-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.similar-job-location-container {
+  display: flex;
+  align-items: center;
+}
+
+.similar-job-employment-type-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.similar-job-location-label {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.similar-job-location-icon {
+  color: #ffffff;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
